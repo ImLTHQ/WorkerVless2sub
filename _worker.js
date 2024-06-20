@@ -11,10 +11,10 @@ let addresses = [
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/Lu-lingyun/WorkerVless2sub/main/BestIP/TLS/TLS-HK', //Lu-lingyun提供 香港节点 不定时更新
-	'https://raw.githubusercontent.com/Lu-lingyun/WorkerVless2sub/main/BestIP/TLS/TLS-TW', //Lu-lingyun提供 台湾节点 不定时更新
-	'https://raw.githubusercontent.com/Lu-lingyun/WorkerVless2sub/main/BestIP/TLS/TLS-SG', //Lu-lingyun提供 新加坡节点 不定时更新
-	'https://raw.githubusercontent.com/Lu-lingyun/WorkerVless2sub/main/BestIP/TLS/TLS-US', //Lu-lingyun提供 美国节点 不定时更新
+	'https://raw.githubusercontent.com/Lu-Lingyun/WorkerVless2sub/main/BestIP/TLS/TLS-HK', //Lu-Lingyun提供 香港节点 不定时更新
+	'https://raw.githubusercontent.com/Lu-Lingyun/WorkerVless2sub/main/BestIP/TLS/TLS-TW', //Lu-Lingyun提供 台湾节点 不定时更新
+	'https://raw.githubusercontent.com/Lu-Lingyun/WorkerVless2sub/main/BestIP/TLS/TLS-SG', //Lu-Lingyun提供 新加坡节点 不定时更新
+	'https://raw.githubusercontent.com/Lu-Lingyun/WorkerVless2sub/main/BestIP/TLS/TLS-US', //Lu-Lingyun提供 美国节点 不定时更新
 	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //CM提供
 	'https://raw.githubusercontent.com/Lu-Lingyun/CloudflareST/main/TLS.txt', //Lu-Lingyun提供 4小时更新一次
 //	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
@@ -29,8 +29,8 @@ let addressesnotls = [
 
 // 设置优选noTLS地址api接口
 let addressesnotlsapi = [
-//	'https://raw.githubusercontent.com/Lu-lingyun/WorkerVless2sub/main/BestIP/noTLS', //可参考内容格式 自行搭建。
-	'https://raw.githubusercontent.com/Lu-lingyun/CloudflareST/main/notls.txt', //Lu-lingyun提供 4小时更新一次
+//	'https://raw.githubusercontent.com/Lu-Lingyun/WorkerVless2sub/main/BestIP/noTLS', //可参考内容格式 自行搭建。
+	'https://raw.githubusercontent.com/Lu-Lingyun/CloudflareST/main/notls.txt', //Lu-Lingyun提供 4小时更新一次
 ];
 
 let DLS = 10;//速度下限
@@ -39,7 +39,7 @@ let addressescsv = [
 ];
 
 let subconverter = "url.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
-let subconfig = "https://raw.githubusercontent.com/Lu-lingyun/ProxyRules/master/Clash/config/XiaoYe.ini"; //订阅转换配置文件
+let subconfig = "https://raw.githubusercontent.com/Lu-Lingyun/ProxyRules/master/Clash/config/XiaoYe.ini"; //订阅转换配置文件
 let noTLS = 'false'; //改为 true , 将不做域名判断 始终返回noTLS节点
 let link = '';
 let edgetunnel = 'ed';
