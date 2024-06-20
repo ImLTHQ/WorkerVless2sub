@@ -11,26 +11,26 @@ let addresses = [
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/CF-Pageso/WorkerVless2sub/main/BestIP/TLS/TLS-HK', //CF-Pageso提供 香港节点 不定时更新
-	'https://raw.githubusercontent.com/CF-Pageso/WorkerVless2sub/main/BestIP/TLS/TLS-TW', //CF-Pageso提供 台湾节点 不定时更新
-	'https://raw.githubusercontent.com/CF-Pageso/WorkerVless2sub/main/BestIP/TLS/TLS-SG', //CF-Pageso提供 新加坡节点 不定时更新
-	'https://raw.githubusercontent.com/CF-Pageso/WorkerVless2sub/main/BestIP/TLS/TLS-US', //CF-Pageso提供 美国节点 不定时更新
+	'https://raw.githubusercontent.com/Lu-lingyun/WorkerVless2sub/main/BestIP/TLS/TLS-HK', //Lu-lingyun提供 香港节点 不定时更新
+	'https://raw.githubusercontent.com/Lu-lingyun/WorkerVless2sub/main/BestIP/TLS/TLS-TW', //Lu-lingyun提供 台湾节点 不定时更新
+	'https://raw.githubusercontent.com/Lu-lingyun/WorkerVless2sub/main/BestIP/TLS/TLS-SG', //Lu-lingyun提供 新加坡节点 不定时更新
+	'https://raw.githubusercontent.com/Lu-lingyun/WorkerVless2sub/main/BestIP/TLS/TLS-US', //Lu-lingyun提供 美国节点 不定时更新
 	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //CM提供
-	'https://raw.githubusercontent.com/CF-Pageso/CloudflareST/main/TLS.txt', //CF-Pageso提供 4小时更新一次
+	'https://raw.githubusercontent.com/Lu-Lingyun/CloudflareST/main/TLS.txt', //Lu-Lingyun提供 4小时更新一次
 //	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
 ];
 
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
 let addressesnotls = [
-	'www.visa.com.sg:80#[CF Pageso] VISA-[使用本节点时请勿访问/发布色情涉政等非法内容]',
-	'www.wto.org:8080#[CF Pageso] WTO-[使用本节点时请勿访问/发布色情涉政等非法内容]',
-	'icook.tw:80#[CF Pageso] icook-[使用本节点时请勿访问/发布色情涉政等非法内容]',
+	'www.visa.com.sg:80#[Lu-Lingyun] VISA-[使用本节点时请勿访问/发布色情涉政等非法内容]',
+	'www.wto.org:8080#[Lu-Lingyun] WTO-[使用本节点时请勿访问/发布色情涉政等非法内容]',
+	'icook.tw:80#[Lu-Lingyun] icook-[使用本节点时请勿访问/发布色情涉政等非法内容]',
 ];
 
 // 设置优选noTLS地址api接口
 let addressesnotlsapi = [
-	'https://raw.githubusercontent.com/CF-Pageso/WorkerVless2sub/main/BestIP/noTLS', //可参考内容格式 自行搭建。
-	'https://raw.githubusercontent.com/CF-Pageso/CloudflareST/main/notls.txt', //CF-Pageso提供 4小时更新一次
+//	'https://raw.githubusercontent.com/Lu-lingyun/WorkerVless2sub/main/BestIP/noTLS', //可参考内容格式 自行搭建。
+	'https://raw.githubusercontent.com/Lu-lingyun/CloudflareST/main/notls.txt', //Lu-lingyun提供 4小时更新一次
 ];
 
 let DLS = 10;//速度下限
@@ -39,7 +39,7 @@ let addressescsv = [
 ];
 
 let subconverter = "url.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
-let subconfig = "https://raw.githubusercontent.com/CF-Pageso/ProxyRules/master/Clash/config/XiaoYe.ini"; //订阅转换配置文件
+let subconfig = "https://raw.githubusercontent.com/Lu-lingyun/ProxyRules/master/Clash/config/XiaoYe.ini"; //订阅转换配置文件
 let noTLS = 'false'; //改为 true , 将不做域名判断 始终返回noTLS节点
 let link = '';
 let edgetunnel = 'ed';
