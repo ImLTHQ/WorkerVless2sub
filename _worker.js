@@ -6,15 +6,15 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
 //	'icook.tw:2053#官方优选域名',
-	'cf.090227.xyz:443#第三方自适应优选',
+//	'cf.090227.xyz:443#第三方自适应优选',
 ];
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/Lu-Lingyun/WorkerVless2sub/main/BestIP/TLS/TLS-HK', //Lu-Lingyun提供 香港节点 不定时更新
-	'https://raw.githubusercontent.com/Lu-Lingyun/WorkerVless2sub/main/BestIP/TLS/TLS-TW', //Lu-Lingyun提供 台湾节点 不定时更新
-	'https://raw.githubusercontent.com/Lu-Lingyun/WorkerVless2sub/main/BestIP/TLS/TLS-SG', //Lu-Lingyun提供 新加坡节点 不定时更新
-	'https://raw.githubusercontent.com/Lu-Lingyun/WorkerVless2sub/main/BestIP/TLS/TLS-US', //Lu-Lingyun提供 美国节点 不定时更新
+//	'https://raw.githubusercontent.com/Lu-Lingyun/WorkerVless2sub/main/BestIP/TLS/TLS-HK', //Lu-Lingyun提供 香港节点 不定时更新
+//	'https://raw.githubusercontent.com/Lu-Lingyun/WorkerVless2sub/main/BestIP/TLS/TLS-TW', //Lu-Lingyun提供 台湾节点 不定时更新
+//	'https://raw.githubusercontent.com/Lu-Lingyun/WorkerVless2sub/main/BestIP/TLS/TLS-SG', //Lu-Lingyun提供 新加坡节点 不定时更新
+//	'https://raw.githubusercontent.com/Lu-Lingyun/WorkerVless2sub/main/BestIP/TLS/TLS-US', //Lu-Lingyun提供 美国节点 不定时更新
 	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //CM提供
 	'https://raw.githubusercontent.com/Lu-Lingyun/CloudflareST/main/TLS.txt', //Lu-Lingyun提供 4小时更新一次
 //	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
