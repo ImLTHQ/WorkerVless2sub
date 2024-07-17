@@ -17,6 +17,7 @@ let addressesapi = [
 //	'https://raw.githubusercontent.com/Lu-Lingyun/WorkerVless2sub/main/BestIP/TLS/TLS-US', //Lu-Lingyun提供 美国节点 不定时更新
 	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //CM提供
 	'https://raw.githubusercontent.com/Lu-Lingyun/CloudflareST/main/TLS.txt', //Lu-Lingyun提供 4小时更新一次
+https://raw.githubusercontent.com/shulng/CloudflareST/main/TLS.txt
 //	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
 ];
 
