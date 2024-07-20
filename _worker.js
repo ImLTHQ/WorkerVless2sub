@@ -17,15 +17,14 @@ let addressesapi = [
 //	'https://raw.githubusercontent.com/Lu-Lingyun/WorkerVless2sub/main/BestIP/TLS/TLS-US', //Lu-Lingyun提供 美国节点 不定时更新
 	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //CM提供
 	'https://raw.githubusercontent.com/Lu-Lingyun/CloudflareST/main/TLS.txt', //Lu-Lingyun提供 4小时更新一次
-        'https://raw.githubusercontent.com/shulng/CloudflareST/main/TLS.txt',
-//	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
+    'https://raw.githubusercontent.com/shulng/CloudflareST/main/TLS.txt',
+	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
 ];
 
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
 let addressesnotls = [
 	'www.visa.com.sg:80#[Lu-Lingyun] VISA-[使用本节点时请勿访问/发布色情涉政等非法内容]',
 	'www.wto.org:8080#[Lu-Lingyun] WTO-[使用本节点时请勿访问/发布色情涉政等非法内容]',
-	'icook.tw:80#[Lu-Lingyun] icook-[使用本节点时请勿访问/发布色情涉政等非法内容]',
 ];
 
 // 设置优选noTLS地址api接口
