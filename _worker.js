@@ -6,7 +6,7 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
 //	'icook.tw:2053#官方优选域名',
-//	'cf.090227.xyz:443#第三方自适应优选',
+	'speed.marisalnc.com:443#第三方自适应优选',
 ];
 
 // 设置优选地址api接口
