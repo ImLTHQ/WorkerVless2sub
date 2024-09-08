@@ -30,7 +30,7 @@ let addressesnotls = [
 // 设置优选noTLS地址api接口
 let addressesnotlsapi = [
 //	'https://raw.githubusercontent.com/Lu-Lingyun/WorkerVless2sub/main/BestIP/noTLS', //可参考内容格式 自行搭建。
-	'https://raw.githubusercontent.com/Lu-Lingyun/CloudflareST/main/notls.txt', //Lu-Lingyun提供 4小时更新一次
+//	'https://raw.githubusercontent.com/Lu-Lingyun/CloudflareST/main/notls.txt', //Lu-Lingyun提供 4小时更新一次
 ];
 
 let DLS = 10;//速度下限
